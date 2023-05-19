@@ -1,57 +1,45 @@
 //  -------------- 5/18/2023 -------------------
 
 
-//for Loop
-
-for(let i = 0; i < 10 ; i++){
-
-    console.log(i):
+// for loop 
+for (let i = 0; i < 6; i++  ){
+    console.log(i);
 }
 
-console.log('-------------------------');
-// while loop
+console.log("----------");
 
+// while loop 
 let x = 1; 
-while(x<6){
+while (x<6) {
     console.log(x);
-    x++ ;
-
+    x++; 
 }
 
-console.log('-------------------------');
-
+console.log("----------");
 // do while loop
+let y = 1; 
 
-let y = 1;
-
-do{
+do {
     console.log(y);
-    y++ ;
-}while (y<6);
+    y++; 
+} while (y < 6);
 
+console.log("----------");
 
-
-console.log('-------------------------');
-// using for loop to iterate over array items:
-
-let names = ["Clark","Bruce", "Barry", "Diana", "John"];
-
-for(let i = 0; i<names.length; i++){
-
-    console.log(names [i] ); 
+// using for loop to iterate over array items 
+let names = ["Clark", "Bruce", "Barry", "Diana", "John"];
+for (let i = 0; i < names.length; i++  ){
+    console.log(names[i]);
 }
 
-
-
-console.log('-------------------------');
-// for each loop in JavaScript : using word Of
-
-for (let each of names) {
+console.log("----------");
+// using for of to iterate over array items 
+for (let each of names  ){
     console.log(each);
 }
 
+console.log("----------"); // sit back and relax 
+names.forEach( each => console.log(each) ); 
 
 
-console.log('-------------------------');
 
-names.forEach (each => console.log(each) );
