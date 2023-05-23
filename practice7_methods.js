@@ -23,7 +23,7 @@ function addNumbers(num1, num2){
 
 
 print () ;
-
+print () ;
 sayHelloTo('Sergey Zakharchenko');
 sayHelloTo('Yelena');
 
